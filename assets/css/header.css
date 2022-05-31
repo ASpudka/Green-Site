@@ -1,8 +1,6 @@
-
 .container{
-   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: flex;
+   /* align-items: left; */
 
   padding: 3%;
   border: 1px solid var(--main-color);
@@ -12,11 +10,22 @@
   color: var(--head-color);
 }
 .main-header{
+  flex-grow: 0.5;
   font-size: 2rem;
 }
-.head-phone{
- display: inline-block;
+.contact-info-header{
+  display: inline-flex; 
+  justify-content: space-between;
+  flex-grow: 0.5;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+
 }
+
+
 .head-link{
   display: inline-block;
   width: 32px;
@@ -29,9 +38,13 @@
   background-image: url(./../image/icon/phone.png);
 }
 .sing{
- text-align: center;
+  text-align: center;
 }
 .sing-icon{
   background-image: url(./../image/icon/registration.png);
-
+}
+@media screen and (max-width: 768px) {
+  .contact-info-header{
+    display: none;
+  }
 }
