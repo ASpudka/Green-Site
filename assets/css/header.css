@@ -21,28 +21,39 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  
-
+  }
+.head-phone{
+  /* display: inline-block; */
 }
-
 
 .head-link{
   display: inline-block;
-  width: 32px;
-  height: 32px;
-  background-size: 24px;
   background-repeat: no-repeat;
   background-position: center;
 }
 .phone{
+  width: 48px;
+  height: 48px;
+  background-size: 48px;
   background-image: url(./../image/icon/phone.png);
 }
 .sing{
   text-align: center;
 }
 .sing-icon{
+  width: 32px;
+  height: 32px;
+  background-size: 24px;
   background-image: url(./../image/icon/registration.png);
 }
+.burger{
+  width: 32px;
+  height: 32px;
+  background-size: 64px;
+  background-image: url(./../image/icon/image_button.png);
+}
+
+
 @media screen and (max-width: 768px) {
   .contact-info-header{
     display: none;
