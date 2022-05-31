@@ -10,3 +10,9 @@ body{
   font-family: 'Water Brush', cursive;
   font-size: 12px;
 }
+.btn{
+  padding: 1% 2%; 
+  border: 1px solid var(--head-color);
+  border-radius: 5%;
+  background-color: #00000000;
+}
