@@ -1,0 +1,12 @@
+body{
+  max-width: 95vw;
+  margin: auto;
+}
+:root{
+  --main-color: #65C466;
+  --head-color: white;
+
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Water Brush', cursive;
+  font-size: 12px;
+}

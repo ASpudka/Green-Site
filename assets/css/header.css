@@ -1,0 +1,14 @@
+
+.container{
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+.container>*{
+  color: var(--head-color);
+}
+.main-header{
+  font-size: 2rem;
+}
