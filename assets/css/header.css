@@ -5,25 +5,28 @@
   padding: 3%;
   border: 1px solid var(--main-color);
   border-radius: 2%; background-color: var(--main-color);
+  
 }
 .container>*{
   color: var(--head-color);
+ 
 }
 .main-header{
   flex-grow: 0.5;
   font-size: 2rem;
 }
 .contact-info-header{
-  display: inline-flex; 
+  display: flex; 
   justify-content: space-between;
   flex-grow: 0.5;
+ 
   
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   }
 .head-phone{
-  /* display: inline-block; */
+  align-self: center;
 }
 
 .head-link{
@@ -34,8 +37,11 @@
 .phone{
   width: 48px;
   height: 48px;
+ 
   background-size: 48px;
   background-image: url(./../image/icon/phone.png);
+  background-position: center;
+  
 }
 .sing{
   text-align: center;
@@ -47,11 +53,12 @@
   background-image: url(./../image/icon/registration.png);
 }
 .burger{
-  width: 32px;
-  height: 32px;
-  background-size: 64px;
+  width: 70px;
+  height: 70px;
+  background-size: 70px;
   background-image: url(./../image/icon/image_button.png);
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -59,3 +66,7 @@
     display: none;
   }
 }
+@media screen and (min-width: 769px) {
+  .burger{
+    display: none;}
+  }
